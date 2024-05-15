@@ -9,18 +9,12 @@ body {
     opacity: 1;
 }
 
-
-<<<<<<< HEAD
 .fondoblanco {
     position: absolute;
-=======
-.fondo {
->>>>>>> 42af837f6bf5ffdafb7a45f5225f8bc483375429
     top: 200px;
     left: 100px;
     width: 1400px;
     height: 800px;
-<<<<<<< HEAD
     background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -154,7 +148,6 @@ body {
     position: absolute;
     top: 710px;
     left: 64px;
-=======
 }
 
 
@@ -167,5 +160,4 @@ body {
     background: transparent url('img/Rectangle 1.png') 0% 0% no-repeat padding-box;
     border-radius: 0px 8px 8px 0px;
     opacity: 1;
->>>>>>> 42af837f6bf5ffdafb7a45f5225f8bc483375429
 }
