@@ -8,6 +8,10 @@
     src: url(/fontamazon/Amazon\ Ember\ Bold.ttf);
 }
 
+@font-face {
+    font-family:myriad;
+    src: url(/fontMyriad\Myriadproitalic.ttf);
+}
 
 body{
     width: 1920px;
@@ -284,4 +288,111 @@ body{
     height: 88px;
     background: transparent url('img/If you don’t like our services, you can cancel anytime you want , no contracts, no fees..png') 0% 0% no-repeat padding-box;
     opacity: 1;  
+}
+
+.tex8{
+    position: absolute;
+    font-family:amazon ;
+    font-size:125px ;
+    text-align: center;
+    color: white;
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    background: transparent url('img/Compatible devices.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
+.tex9{
+    position: absolute;
+    font-family: amazon;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    top: 3400px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+     
+}
+
+
+.cel{
+    position: absolute;
+    top: 3770px;
+    left: 400px;
+    width: 256px;
+    height: 219px;
+    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pc{
+  position: absolute;
+    top: 3600px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.pc2{
+    position:absolute;
+    top: 3750px;
+    left: 1250px;
+    width: 271px;
+    height: 238px;
+    background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.letras{
+    position: absolute;
+    top: 4150px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+    background: transparent url('img/Logo CACE Invertido UP.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tex10{
+    position: absolute;
+    font-family: myriad;
+    font-size:20px ;
+    text-align: left;
+    color: white;
+    top: 4150px;
+    left: 820px;
+    width: 92px;
+    height: 20px;
+    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
+    opacity: 1;    
+}
+
+.texultimo{
+    position: absolute;
+    top: 4350px;
+    left: 570px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.flechitas{
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: transparent url('img/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
 }
