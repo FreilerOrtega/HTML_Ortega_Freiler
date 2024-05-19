@@ -84,7 +84,7 @@ body{
     text-align:left ;
     font-size:60px ;
     top: 443px;
-    left: 389px;
+    left: 489px;
     width: 1151px;
     height: 60px;
     opacity: 1;
@@ -126,4 +126,162 @@ body{
     width: 360px;
     height: 40px;
     opacity: 1;    
+}
+
+.cuadroazul{
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    opacity: 1;
+
+}
+
+.rectangulo3{
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    border-radius: 108px;
+    opacity: 1;    
+}
+
+.tex4{
+    position: absolute;
+    font-family: bool;
+    font-size:60px ;
+    text-align: left;
+    color: white;
+    top: 1730px;
+    left: 260px;
+    width: 1700px;
+    height: 60px;
+    opacity: 1;
+}
+
+
+.poster1{
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.poster2{
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.poster3{
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.poster4{
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.poster5{
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.tex5{
+    position: absolute;
+    font-family: amazon;
+    font-size: 50px;
+    text-align: center;
+    top: 2250px;
+    left: 207px;
+    color: white;
+    width: 1492px;
+    height: 110px;
+    background: transparent url('img/You’ll find a variety of movies, not only for adults but also for your family, with our without internet. 24/7. On demand..png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.rectanguloazul2{
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.tex6{
+    position: absolute;
+    font-family: bool;
+    font-size:60px ;
+    text-align:left;
+    color: white;
+    top: 2480px;
+    left: 660px;
+    width: 800px;
+    height: 60px;
+    
+    background: transparent url('img/Cancel any time , anywhere .png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.x{
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent url('img/Icon metro-cancel.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tex7{
+    position: absolute;
+    font-family: amazon;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    background: transparent url('img/If you don’t like our services, you can cancel anytime you want , no contracts, no fees..png') 0% 0% no-repeat padding-box;
+    opacity: 1;  
 }
