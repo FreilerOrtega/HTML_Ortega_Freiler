@@ -26,7 +26,7 @@ body{
     position: relative;
     width: 1920px;
     height: 1080px;
-    background-color: black;
+    background-color: rgb(22, 19, 19);
     justify-content: center;
 }
 
@@ -155,7 +155,7 @@ body{
     position: relative;
     width: 1920px;
     height: 1080px;
-    background-color:gray;
+    background-color:rgb(22, 19, 19);
     justify-content: center;
 }
 
@@ -248,7 +248,7 @@ body{
     top: 130px;
     width: 1316px;
     height: 300px;
-    left: 400px;
+    left: 600px;
     font-family: cascadia;
     font-size:80px ;
     color:white;
@@ -260,20 +260,71 @@ body{
 .cuadro1{
     position: absolute;
     top: 410px;
-    width: 500px;
-    height: 600px;
     left: 100px;
-    background-color: #ffefe8;
+    width: 480px;
+    height: 480px;
+    
 }
+
+.cuadriton{
+    position: absolute;
+    top: 414px;
+    left: 480px;
+    width: 100px;
+
+}
+
+.cuadriton1{
+    position: absolute;
+    top: 413px;
+    left: 1100px;
+    width: 100px;
+
+}
+
+.cuadriton2{
+    position: absolute;
+    top: 413px;
+    left: 1700px;
+    width: 100px;    
+   
+
+}
+
+
+.hamburguesa{
+    position: absolute;
+    top: 520px;
+    width:200px;
+    left: 240px;
+
+}
+
+
+.hamburguesa2{
+    position: absolute;
+    top: 520px;
+    width:200px;
+    left: 850px;
+}
+
+.pollo{
+    position: absolute;
+    top: 520px;
+    width:200px;
+    left: 1450px;
+
+}
+
 
 
 .t{
     position: absolute;
     color:black;
-    top: 450px;
+    top: 750px;
     width: 150px;
     height: 50px;
-    left: 190px;
+    left: 280px;
     font-family: cascadia;
 
 }
@@ -281,75 +332,238 @@ body{
 .t1{
     position: absolute;
     color:black;
-    top: 480px;
+    top: 780px;
     width: 150px;
     height: 50px;
-    left: 210px;
+    left: 290px;
     font-family: cascadia;
 
 }
 
 .t2{
     position: absolute;
-    color:black;
-    top: 510px;
+    color:orange;
+    top: 810px;
     width: 150px;
     height: 50px;
-    left: 230px;
+    left: 300px;
     font-family: cascadia;
-}
-
-
-.hamburguesa{
-    position: absolute;
-    top: 10px;
-    width:470px;
-    left: 15px;
-
 }
 
 
 .cuadro2{
     position: absolute;
     top: 410px;
-    width: 500px;
-    height: 600px;
-    left: 200px;
-    background-color: #ffefe8;
+    width: 480px;
+    height: 480px;
+    left: 720px;
+   
 }
 
-.hamburguesa2{
+.tex1{
+    position: absolute;
+    color:black;
+    top: 750px;
+    width: 250px;
+    height: 50px;
+    left: 870px;
+    font-family: cascadia;    
+   
+
+}
+
+.tex2{
+    position: absolute;
+    color:black;
+    top: 770px;
+    width: 150px;
+    height: 400px;
+    left: 910px;
+    font-family: cascadia
+}
+
+.tex3{
+    position: absolute;
+    color:orange;
+    top: 790px;
+    width: 150px;
+    height: 50px;
+    left: 930px;
+    font-family: cascadia;
+}
+
+.cuadro3{
     position: absolute;
     top: 410px;
-    width:500px;
-    left: 750px;
-
+    width: 480px;
+    height: 480px;
+    left: 1320px;
+   
 }
 
-.pollo{
+
+.txtico{
     position: absolute;
-    top: 420px;
-    width:440px;
-    left: 1400px;
-
+    color:black;
+    top: 750px;
+    width: 150px;
+    height: 50px;
+    left: 1480px;
+    font-family: cascadia
 }
 
+.txtico1{
+    position: absolute;
+    color:black;
+    top: 770px;
+    width: 150px;
+    height: 50px;
+    left: 1510px;
+    font-family: cascadia      
+}
+
+.txtico2{
+    position: absolute;
+    color:orange;
+    top: 790px;
+    width: 150px;
+    height: 50px;
+    left: 1530px;
+    font-family: cascadia;    
+}
 
 .rectan4{
     position: relative;
     width: 1920px;
     height: 1080px;
-    background-color:red;
+    background-color:rgb(22, 19, 19);
     justify-content: center;
 }
+
+.te1{
+    position: absolute;
+    color: orange;
+    left: 820px;
+    top: 100px;
+    font-size: 40px;
+    font-family: cascadia;
+}
+
+.te2{
+    position: absolute;
+    color: white;
+    left: 550px;
+    top: 200px;
+    font-size: 60px;
+    font-family: cascadia;
+}
+
+.s1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 300px;
+    left: 300px;
+}
+
+.s2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 300px;
+    left: 800px;
+}
+
+.s3{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 300px;
+    left: 1300px;
+}
+
+.Order{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    font-size: 40px;
+    font-family: cascadia;
+    color:orange ;
+}
+
+.Shipping{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    font-size: 40px;
+    font-family: cascadia;
+    color:orange ;
+}
+
+
+.Dellvered{
+    position: absolute;
+    top: 700px;
+    left: 1400px;
+    font-size: 40px;
+    font-family: cascadia;
+    color:orange ;
+}
+
+.tx1{
+    position: absolute;
+    top: 800px;
+    left: 250px;
+    font-size: 40px;
+    font-family: cascadia;
+    color:white ; 
+    text-align: center;   
+}
+
+    
+
+.tx2{
+    position: absolute;
+    top: 800px;
+    left: 760px;
+    font-size: 40px;
+    font-family: cascadia;
+    color:white ; 
+    text-align: center;     
+}
+    
+.tx3{
+    position: absolute;
+    top: 800px;
+    left: 1300px;
+    font-size: 40px;
+    font-family: cascadia;
+    color:white ; 
+    text-align: center;     
+}
+    
+
+
+
+
 
 .rectan5{
     position: relative;
     width: 1920px;
-    height: 1000px;
+    height: 780px;
     background-color:violet;
     justify-content: center;
 }
+
+.rectangulo{
+    position: absolute;
+    width: 1700px;
+    height: 550px;
+    left: 100px;
+    top: 100px;    
+}
+
+
 
 .rectan6{
     position: relative;
@@ -358,4 +572,7 @@ body{
     background-color:green;
     justify-content: center;
 }
+
+
+
 
