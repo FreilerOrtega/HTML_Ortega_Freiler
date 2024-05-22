@@ -349,6 +349,23 @@ position: absolute;
     font-size:15px ;    
 }
 
+label{
+    display: block;
+    font-size: 28px;
+}
+
+input{
+    font-size: 28px;
+}
+
+
+
+.entrada{
+    position: absolute;
+    top: 630px;
+    left: 564px;
+   
+}
 
 
 
