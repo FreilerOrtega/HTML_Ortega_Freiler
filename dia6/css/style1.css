@@ -287,8 +287,46 @@
     top: 1296px;
     left: 622px;
     width: 220px;
-    height: 56px;    
+    height: 56px; 
+    background-color: rgb(64, 94, 228);  
+    text-align: center;
+    font-family: regular;
+    font-size: 12px;
+    border-radius: 20px;
+  
 }
+
+.cazul2 a{
+position: absolute;
+ text-decoration: none;
+ top: 20px;
+ left: 80px;
+ color: white;
+}
+
+
+.cazul3{
+    position: absolute;
+    top: 1296px;
+    left: 1100px;
+    width: 220px;
+    height: 56px; 
+    background-color: rgb(64, 94, 228);  
+    text-align: center;
+    font-family: regular;
+    font-size: 12px;
+    border-radius: 20px;
+  
+}
+
+.cazul3 a{
+position: absolute;
+ text-decoration: none;
+ top: 20px;
+ left: 80px;
+ color: white;
+}
+
 
 .rut{
     position: absolute;
@@ -311,11 +349,6 @@
     font-size:15px ;    
 }
 
-.cazul3{
-    position: absolute;
-    top: 1291px;
-    left: 1109px;
-    width: 220px;
-    height: 56px;    
-}
+
+
 
