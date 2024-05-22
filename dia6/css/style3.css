@@ -88,3 +88,11 @@
     left: 830px;
     top: 50px;
 }
+
+.rectanguloblanco{
+    position: absolute;
+    top: 192px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;    
+}
