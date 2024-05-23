@@ -320,11 +320,11 @@ position: absolute;
 }
 
 .cazul3 a{
-position: absolute;
- text-decoration: none;
- top: 20px;
- left: 80px;
- color: white;
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    left: 80px;
+    color: white;
 }
 
 
@@ -352,17 +352,24 @@ position: absolute;
 label{
     display: block;
     font-size: 28px;
+    
 }
 
 input{
     font-size: 28px;
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+        
 }
+
 
 
 
 .entrada{
     position: absolute;
-    top: 630px;
+    top: 520px;
     left: 564px;
    
 }
