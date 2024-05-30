@@ -1,13 +1,8 @@
 
-body{
-    width: 100vw;
-    min-height: 100vh;
-    
-}
 
 .contenedor{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 50vw;
     overflow: hidden;
     
     
@@ -15,8 +10,8 @@ body{
 }
 
 .fondo{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 50vw;
     overflow: hidden;
     
 }
@@ -27,6 +22,16 @@ body{
     height: 20vw;
     margin-top: -55vw;
     left: 80vw;
+    animation-name: sol ;
+    animation-duration: 7s;
+    opacity: 100%;
+    animation-delay: 3s;
+
+}
+@keyframes sol{
+    0%{opacity: 0%;}
+    50%{opacity: 10%;}
+    100%{opacity: 100%;}
 
 }
 
@@ -37,94 +42,139 @@ body{
     margin-top: -55vw;
     left: 80vw;
     animation-name: cloud;
-    animation-duration: 9s;
+    animation-duration: 10s;
+    animation-delay: 4s;
     
 }
 @keyframes cloud {
-    100% {left:-80vw; top:0px;}
-    
+    0% {right: 10%;}
+    10% {right: 20%;}
+    50% {right: 50%;}
+    100% {transform: translatex(-200%);} 
 }
 
-.nube2{
+.lluvia1{
     position: absolute;
-    width: 40vw;
-    height: 20vw;
-    margin-top: -55vw;
-    left: 2vw;
-    opacity: 0%;
-    animation-delay: 2.7s;
-    animation-name: cloud2;
-    animation-duration: 4s;
-}
-@keyframes cloud2 {
-    0%{opacity: 0%;}
-    0.1%{opacity: 100%;}
-    100% {left:-80vw; top:0px;}
+    margin-top: -40vw;
+    margin-left: 10vw;
 }
 
-
-
-.lluvia{
-    position: relative;
-    width: 40vw;
+.lluvia1 .lluvia{
+    width: 15vw;
     height: 15vw;
-    top: -55vw;
-    left: 2vw;
-    opacity: 0%;
     animation-name: lluvia;
+    opacity: 0%;
     animation-duration: 3s;
-    animation-delay:2.6s ;
+    animation-delay: 13s;
+
 }
 @keyframes lluvia {
-    10%{left:0vh;top:-30   vh;}
-    10%{opacity: 0%;}
-    100% {left:0; top:-15vw;opacity: 60%;}
+    1%{opacity: 100%;}
+    100%{margin-top: 20vw;}
+
+}
+
+
+
+
+
    
-}
-.lluvia2{
-    position: absolute;
-    width: 40vw;
-    height: 15vw;
-    top: -10vw;
-    left: 2vw;
-    opacity: 0%;
-    animation-name: lluvia2;
-    animation-duration: 3s;
-    animation-delay:2.7s ;
-}
-@keyframes lluvia2 {
-    0%{opacity: 0%;}
-    10%{left:0vh;top:10vw   vh;opacity: 0%;}
-    100% {left:0; top:40vw;opacity: 60%;}
-   
-}
+
 .flor{
     position: absolute;
     width: 20vw;
     height: 10vw;
-    left: 2vw;
-    top: 70vw;
-    opacity: 100%;
+    margin-left: 2vw;
+    margin-top: -15vw;
+    opacity: 0%;
     animation-name: flor;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 15s;
     
 
 }
 
 @keyframes flor {
-    100%{top: 40vw;opacity: 100%;}
+    100%{opacity: 100%;}
     
 
 }
 
 .n3{
-position: relative;
+    position: relative;
     width: 10vw;
     height: 10vw;
     top: -35vw;
-    left: 50vw;
-    animation: 3
-    duration timing-function delay iteration-count direction fill-mode;
+    left: 45vw;
+    opacity: 0%;
+    animation-name:n3;
+    animation-duration: 1s;
+}
+
+@keyframes n3{
+    1%{opacity:100%;}
+    100%{top:-60vw;opacity: 0%;}
+
 
 }
+.n2{
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    top: -35vw;
+    left: 45vw;
+    opacity: 0%;
+    animation-name:n2;
+    animation-duration: 1s;
+    animation-delay: 1s;
+
+}
+
+@keyframes n2{
+    1%{opacity:100%;}
+    100%{top:-60vw;opacity: 0%;}
+
+
+}
+
+
+.n1{
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    top: -35vw;
+    left: 45vw;
+    opacity: 0%;
+    animation-name:n1;
+    animation-duration: 1s;
+    animation-delay: 2s;
+
+}
+@keyframes n1{
+    1%{opacity:100%;}
+    100%{top:-60vw;opacity: 0%;}
+
+
+}
+
+
+
+.accion{
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    top: -35vw;
+    left: 32vw;
+    opacity: 0%;
+    animation-name:accion;
+    animation-duration: 1s;
+    animation-delay: 3s;
+          
+}
+@keyframes accion{
+    1%{opacity:100%;}
+    100%{top:-80vw;opacity: 0%;}
+
+
+}
+    
