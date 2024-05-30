@@ -1,0 +1,34 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 1;
+    overflow: hidden;
+
+}
+
+.caja1{
+   width: 100vw;
+   height: 100vw; 
+   background-color: aqua;
+   grid-column: 1/2;
+   
+   
+}
+
+
+.caja2{
+    width: 100vw;
+    height: 100vw;
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1;
+
+}
+
+.cajasuperior{
+    width: 100vw;
+    height:20vw ;
+    background-color: gold;
+
+}
