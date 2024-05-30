@@ -1,0 +1,130 @@
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    
+    
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.sol{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    margin-top: -55vw;
+    left: 80vw;
+
+}
+
+.nube{
+    position: absolute;
+    width: 40vw;
+    height: 20vw;
+    margin-top: -55vw;
+    left: 80vw;
+    animation-name: cloud;
+    animation-duration: 9s;
+    
+}
+@keyframes cloud {
+    100% {left:-80vw; top:0px;}
+    
+}
+
+.nube2{
+    position: absolute;
+    width: 40vw;
+    height: 20vw;
+    margin-top: -55vw;
+    left: 2vw;
+    opacity: 0%;
+    animation-delay: 2.7s;
+    animation-name: cloud2;
+    animation-duration: 4s;
+}
+@keyframes cloud2 {
+    0%{opacity: 0%;}
+    0.1%{opacity: 100%;}
+    100% {left:-80vw; top:0px;}
+}
+
+
+
+.lluvia{
+    position: relative;
+    width: 40vw;
+    height: 15vw;
+    top: -55vw;
+    left: 2vw;
+    opacity: 0%;
+    animation-name: lluvia;
+    animation-duration: 3s;
+    animation-delay:2.6s ;
+}
+@keyframes lluvia {
+    10%{left:0vh;top:-30   vh;}
+    10%{opacity: 0%;}
+    100% {left:0; top:-15vw;opacity: 60%;}
+   
+}
+.lluvia2{
+    position: absolute;
+    width: 40vw;
+    height: 15vw;
+    top: -10vw;
+    left: 2vw;
+    opacity: 0%;
+    animation-name: lluvia2;
+    animation-duration: 3s;
+    animation-delay:2.7s ;
+}
+@keyframes lluvia2 {
+    0%{opacity: 0%;}
+    10%{left:0vh;top:10vw   vh;opacity: 0%;}
+    100% {left:0; top:40vw;opacity: 60%;}
+   
+}
+.flor{
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    left: 2vw;
+    top: 70vw;
+    opacity: 100%;
+    animation-name: flor;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    
+
+}
+
+@keyframes flor {
+    100%{top: 40vw;opacity: 100%;}
+    
+
+}
+
+.n3{
+position: relative;
+    width: 10vw;
+    height: 10vw;
+    top: -35vw;
+    left: 50vw;
+    animation: 3
+    duration timing-function delay iteration-count direction fill-mode;
+
+}
